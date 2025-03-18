@@ -1,71 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<title>My Story</title>
-<link rel="stylesheet" href="styles.css" />
-<link rel="stylesheet" href="fonts/fonts.css" />
-<link
-rel="icon"
-type="image/x-icon"
-href="https://practicum-content.s3.us-west-1.amazonaws.com/web-code/favicon.ico"
-/>
+  <meta charset="UTF-8" />
+  <title>My Story</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="fonts/fonts.css" />
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="https://practicum-content.s3.us-west-1.amazonaws.com/web-code/favicon.ico"
+  />
 </head>
 <body class="page">
-    <header class="header">
-   <div class="overlay">
-   <p class="header__banner">Software Engineer</p>
-   <h1 class="header__title">Phillip Piloto</h1> 
-   </div>
-   </header>
-   <main class="content">
-    <div class="card">
-        <img src="images/FAM.jpg" alt="FAM" class="card__image"/>
-        <div class="card__content">
+  <header class="header">
+    <div class="overlay">
+      <p class="header__banner">Software Engineer</p>
+      <h1 class="header__title">Phillip Piloto</h1> 
+    </div>
+  </header>
 
-            <h2 class="card__title">Family</h2>
-            <p class="card__text">I’m a husband and a father to a son and a daughter who mean the world to me. Being a family man is my greatest joy, and I cherish the time I spend with them. Their love and support drive me to be the best version of myself every day.
+  <nav class="navigation">
+    <ul>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#clean-code">Clean Code</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#my-projects">My Projects</a></li>
+      <li><a href="#contact-me">Contact Me</a></li> <!-- Added My Projects link -->
+    </ul>
+  </nav>
+
+  <main class="content">
+    <!-- About Me Section -->
+    <div id="about-me" class="card">
+      <img src="images/FAM.jpg" alt="FAM" class="card__image"/>
+      <div class="card__content">
+        <h2 class="card__title">Family</h2>
+        <p class="card__text">I’m a husband and a father to a son and a daughter who mean the world to me. Being a family man is my greatest joy, and I cherish the time I spend with them. Their love and support drive me to be the best version of myself every day.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/basketball.jpg" alt="basketball" class="card__image" />
+      <div class="card__content">
+        <h2 class="card__title">Basketball</h2>
+        <p class="card__text">I enjoy playing basketball in recreational leagues and regularly join pick-up games at the park and gyms. It’s a great way to stay active, have fun, and connect with others. Basketball is a passion of mine, and I always look forward to getting on the court.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/starwars.jpg" alt="starwars" class="card__image" />
+      <div class="card__content">
+        <h2 class="card__title">LEGO Builder</h2>
+        <p class="card__text">I enjoy Legos because they let me get creative, and it’s really satisfying to bring ideas to life. Experimenting with different designs is always fun, and finishing a project gives me a sense of accomplishment. It’s also a great way to relax and let my imagination run wild.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/Coding.jpg" alt="coding on laptop" class="card__image" />
+      <div class="card__content">
+        <h2 class="card__title">Software Engineering</h2>
+        <p class="card__text">I’m excited to keep learning and growing as a software engineer. After graduation, I’m focusing on securing an internship to gain hands-on experience and further develop my skills. I’m eager to apply my knowledge in a real-world setting and contribute to a dynamic team.</p>
+      </div>
+    </div>
+
+    <!-- Clean Code Rules Section -->
+    <section id="clean-code" class="clean-code-section">
+      <h1 class="clean-code-title">Clean Code Rules</h1>
+      <div class="clean-code-cards-container">
+        <div class="clean-code-card">
+          <img
+            class="clean-code-card-image"
+            src="https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/clean-code/formatting.svg"
+          />
+          <div class="clean-code-card-content">
+            <h2 class="clean-code-card-title">Consistent Formatting</h2>
+            <p class="clean-code-card-text">
+              Follow a consistent coding style throughout your codebase.
             </p>
-            </div>
-            </div>
-            <div class="card">
-            <img src="images/basketball.jpg"
-            alt="basketball"
-            class="card__image" 
-            />
-                                                
-            <div class="card__content">
-            <h2 class="card__title">Basketball</h2>
-            <p class="card__text">I enjoy playing basketball in recreational leagues and regularly join pick-up games at the park and gyms. It’s a great way to stay active, have fun, and connect with others. Basketball is a passion of mine, and I always look forward to getting on the court.
+            <p class="clean-code-card-text">
+              Use meaningful names for variables, functions, and classes.
             </p>
-            </div>
-            </div>
-            <div class="card">
-            <img src="images/starwars.jpg" 
-            alt="starwar"
-            class="card__image" 
-            />
-                                              
-            <div class="card__content">
-            <h2 class="card__title">LEGO Builder</h2>
-            <p class="card__text">I enjoy Legos because they let me get creative, and it’s really satisfying to bring ideas to life. Experimenting with different designs is always fun, and finishing a project gives me a sense of accomplishment. It’s also a great way to relax and let my imagination run wild.</p>
-            </div>
-            </div>
-            <div class="card">
-            <img src="images/Coding.jpg" 
-            alt="coding on laptop"
-            class="card__image" 
-            />
-                                                
-            <div class="card__content">
-            <h2 class="card__title">Software Engineering</h2>
-            <p class="card__text">I’m excited to keep learning and growing as a software engineer. After graduation, I’m focusing on securing an internship to gain hands-on experience and further develop my skills. I’m eager to apply my knowledge in a real-world setting and contribute to a dynamic team.</p>
-            </div>
-            </div>
-            </main>
-                                            
-            <footer class="footer">
-            <p class="footer__text">&copy; Phillip Piloto 2025</p>
-            </footer>
-            </body>
-            </html>
+          </div>
+        </div>
+        <div class="clean-code-card">
+          <img
+            class="clean-code-card-image"
+            src="https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/clean-code/clarity.svg"
+          />
+          <div class="clean-code-card-content">
+            <h2 class="clean-code-card-title">Simplicity and Clarity</h2>
+            <p class="clean-code-card-text">Keep your code simple and easy to understand.</p>
+            <p class="clean-code-card-text">
+              Avoid unnecessary complexity and convoluted logic.
+            </p>
+          </div>
+        </div>
+        <div class="clean-code-card">
+          <img
+            class="clean-code-card-image"
+            src="https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/clean-code/modularity.svg"
+          />
+          <div class="clean-code-card-content">
+            <h2 class="clean-code-card-title">Modularity and Reusability</h2>
+            <p class="clean-code-card-text">
+              Break down your code into modular components that can be easily
+              reused.
+            </p>
+            <p class="clean-code-card-text">
+              Write functions and classes that have a single responsibility.
+            </p>
+          </div>
+        </div>
+        <div class="clean-code-card">
+          <img
+            class="clean-code-card-image"
+            src="https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/clean-code/documentation.svg"
+          />
+          <div class="clean-code-card-content">
+            <h2 class="clean-code-card-title">Comments and Documentation</h2>
+            <p class="clean-code-card-text">
+              Use comments to explain complex or non-obvious parts of your code.
+            </p>
+            <p class="clean-code-card-text">
+              Document your code and APIs thoroughly to make them easier to use
+              for others.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="music" class="music-playlist-section">
+      <h1 class="music-playlist-title">Best Songs to Code To</h1> <!-- Title -->
+      <div class="music-playlist-card">
+        <div class="music-box">
+          <iframe
+            allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+            frameborder="0"
+            height="450"
+            style="width:100%;max-width:100%;overflow:hidden;border-radius:10px;"
+            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+            src="https://embed.music.apple.com/us/playlist/lo-fi-chill/pl.1d5ead185d8a4a9089f3b952770b762c">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Projects Section -->
+    <section id="my-projects" class="my-projects-section">
+      <h3 class="projects-heading">My Projects</h3>
+      <div class="projects-grid">
+        <div class="project-image-wrapper">
+            <h4>Project 1</h4>
+            <img class="project-image" src="images/project-1.jpg" alt="Project 1">
+        </div>
+        <div class="project-image-wrapper">
+            <h4>Project 2</h4>
+            <img class="project-image" src="images/project-2.jpg" alt="Project 2">
+        </div>
+        <div class="project-image-wrapper">
+            <h4>Project 3</h4>
+            <img class="project-image" src="images/project-3.jpg" alt="Project 3">
+        </div>
+        <div class="project-image-wrapper">
+            <h4>Project 4</h4>
+            <img class="project-image" src="images/project-4.jpg" alt="Project 4">
+        </div>
+      </div>
+      <hr>
+    </section>
+    <section id="contact-me" class="contact-me-section">
+      <h3 class="contact-heading">Contact Me</h3>
+      <div class="contact-container">
+        <div class="links-and-contacts">
+          <!-- Links Column -->
+          <div class="links">
+            <h3>Links</h3>
+            <ul class="links-list">
+              <li><a href="https://github.com/pilotophillip" target="_blank">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/phillip-piloto-758540354/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://tripleten.com/home/web/?utm_medium=hs_automation&_hsenc=p2ANqtz--1o99IHnwR9z58FSVuQnLPodCrMCPcF2XE53XeWDYhYeAyP9Bfduq6Auguf22HbgpTZYN8YnMzqk9r0dp3dx0E2AufFQ&_hsmi=103946553&utm_source=email_usa" target="_blank">Triple Ten Curriculum</a></li>
+            </ul>
+          </div>
+    
+          <!-- Contact Form Column -->
+          <div class="contact-form">
+            <h3>Contact Form</h3>
+            <form id="contactForm">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Enter your email" required>
+    
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your message" required></textarea>
+    
+              <button id="submit-button" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+    
+        <div class="contact-details">
+          <p>Email: <a href="mailto:pilotophillip@gmail.com">pilotophillip@gmailcom</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/phillip-piloto-758540354/" target="_blank">linkedin.com/in/phillip-piloto</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; Phillip Piloto 2025</p>
+  </footer>
+  <script src="script.js"></script> 
+</body>
+</html>
