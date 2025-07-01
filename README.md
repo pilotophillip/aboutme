@@ -62,17 +62,6 @@ Stay tuned — I’ll be posting a short video walkthrough explaining the design
 
 ---
 
-## 📐 Figma (Design Reference)
-
-The layout and spacing were inspired by modern UI principles and mobile-first responsiveness.
-
----
-
-## 🖼️ Images
-
-Most visuals were optimized and exported directly from Figma or my personal collection to maintain speed and quality.
-
----
 
 ## 📬 Contact Me
 
