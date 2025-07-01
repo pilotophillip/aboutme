@@ -4,6 +4,8 @@ Welcome to my "About Me" project — a personal website I built from scratch usi
 
 This isn't just a portfolio — it's a reflection of my passions, values, and the code principles I stand by.
 
+ I originally created this project before starting my software engineering bootcamp at TripleTen, showcasing the skills I gained through self-teaching and consistency. Later, I enhanced the project with clean code principles and best practices I learned during my bootcamp.
+
 ## 🔍 What's Inside
 
 ### 👨‍👩‍👧‍👦 About Me
