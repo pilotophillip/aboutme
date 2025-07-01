@@ -42,7 +42,7 @@ A visual gallery of some of the projects I’ve worked on. This page will grow o
 ## 🚀 Deployment
 
 This project is live on GitHub Pages.  
-👉 **[Check it out here](https://pilotophillip.github.io/about-me-project/)**
+👉 **[Check it out here](https://pilotophillip.github.io/aboutme/)**
 
 ---
 
